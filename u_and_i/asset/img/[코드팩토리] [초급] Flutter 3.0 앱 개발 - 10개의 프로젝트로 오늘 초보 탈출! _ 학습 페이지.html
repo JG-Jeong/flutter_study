@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)https://www.inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/unit/106203 -->
+<html lang="ko" style="--vh:8.57px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><style data-emotion="mantine" data-s=""></style>
+  
+  <link rel="icon" type="image/svg+xml" href="https://cdn.inflearn.com/monolith/lecture/assets/favicon.8aa87a73.ico">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+
+  <title>[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! | 학습 페이지</title>
+  <script src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/cookiesync.js"></script><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/analytics.js"></script><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/mixpanel-2-latest.min.js"></script><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/mixpanel-js-wrapper.js"></script><script src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/AceCounter_AW.js"></script><script async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/uwt.js"></script><script async="" charset="utf-8" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/plugin.min.js"></script><script src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/441896424280799" async=""></script><script async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/fbevents.js"></script><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/hotjar-1070825.js"></script><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/hotjar-1039300.js"></script><script gtm="GTM-MVM7ZHX" type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/optimize.js"></script><script async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/gtm.js"></script><script type="module" crossorigin="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/index.472d0dcc.js"></script>
+  <link rel="stylesheet" href="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/build.d3db6b5f.css">
+<style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css" data-s=""></style><meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/f.txt"></script><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/f(1).txt"></script><meta name="robots" content="noindex" data-rh="true"><script async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/modules.ea0a6d6a741d5de8308e.js" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><script type="text/javascript" async="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/1s9mPOHO.js"></script></head>
+
+<body>
+  <div id="root"><main class="css-ydv0ye" style=""><div class="css-1drb7v5"><header class="css-hxhp83"><div class="css-1ok7bvp"><a href="https://inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/dashboard" class="css-f032mp"><span class="css-3h0hpn"><svg width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><title>LinkIcon</title><path fill="#ffffff" fill-rule="evenodd" d="M12.031 7h-.437c-.121 0-.219.098-.219.219v5.468c0 .242-.196.438-.438.438H1.313c-.242 0-.438-.196-.438-.438V3.063c0-.242.196-.438.438-.438H6.78c.121 0 .219-.098.219-.219V1.97c0-.121-.098-.219-.219-.219H1.313C.588 1.75 0 2.338 0 3.063v9.624C0 13.412.588 14 1.313 14h9.624c.725 0 1.313-.588 1.313-1.313V7.22c0-.121-.098-.219-.219-.219zm1.64-7L9.954.01c-.181 0-.328.146-.328.327v.274c0 .181.147.328.328.328l2.461-.01.02.02-8.838 8.836c-.062.062-.097.145-.097.233 0 .087.035.17.097.232l.155.155c.061.062.145.096.232.096.087 0 .171-.034.233-.096l8.835-8.837.02.019-.01 2.461c0 .181.147.328.328.328h.274c.18 0 .328-.147.328-.328L14 .328C14 .147 13.853 0 13.672 0z"></path></svg></span><span>강의 대시보드</span></a><p class="css-1vtpfoe">DateTime 상태관리!</p></div><div class="css-1e9gt7w"><div class="mantine-Group-root mantine-1h8qnit"><button class="mantine-UnstyledButton-root mantine-Button-root mantine-fe3mv" type="button" data-button="true"><div class="mantine-r1naix mantine-Button-inner"><span class="mantine-Button-icon mantine-Button-leftIcon mantine-t7iy8v"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell-slash" class="svg-inline--fa fa-bell-slash " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="font-size: 16px; color: inherit;"><path fill="currentColor" d="M186 120.5C209 85.38 245.4 59.84 288 51.2V32C288 14.33 302.3 .0003 320 .0003C337.7 .0003 352 14.33 352 32V51.2C425 66.03 480 130.6 480 208V226.8C480 273.9 497.3 319.2 528.5 354.4L535.9 362.7C544.3 372.2 546.4 385.6 541.2 397.1C540.1 397.5 540.8 397.1 540.6 398.4L630.8 469.1C641.2 477.3 643.1 492.4 634.9 502.8C626.7 513.2 611.6 515.1 601.2 506.9L9.196 42.89C-1.236 34.71-3.065 19.63 5.112 9.196C13.29-1.236 28.37-3.065 38.81 5.112L186 120.5zM160 226.8V222.1L406.2 416H128C115.4 416 103.1 408.6 98.81 397.1C93.65 385.6 95.71 372.2 104.1 362.7L111.5 354.4C142.7 319.2 160 273.9 160 226.8V226.8zM320 512C303 512 286.7 505.3 274.7 493.3C262.7 481.3 256 464.1 256 448H384C384 464.1 377.3 481.3 365.3 493.3C353.3 505.3 336.1 512 320 512z"></path></svg></span><span class="mantine-qo1k2 mantine-Button-label">학습 알림</span></div></button><button class="mantine-UnstyledButton-root mantine-Button-root mantine-185auwl" type="button" data-button="true"><div class="mantine-r1naix mantine-Button-inner"><span class="mantine-Button-icon mantine-Button-leftIcon mantine-t7iy8v"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="font-size: 16px; color: inherit;"><path fill="currentColor" d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg></span><span class="mantine-qo1k2 mantine-Button-label">수강평 쓰기</span></div></button></div></div></header><div class="css-df2ktj"><div class="css-1j3kq2f"><div class="css-1cgce7k shaka-video-container" data-shaka-player-container="" shaka-controls="true" style="cursor: none;"><video autoplay="" playsinline="" class="css-w1atjl shaka-video" src="blob:https://www.inflearn.com/c65664c7-0153-417e-a13d-88db675c6f8b"></video><div class="shaka-controls-container"><div class="shaka-scrim-container"></div><div class="shaka-hidden-fast-forward-container"><div class="shaka-fast-forward-oncontrolscontainer"><span>0s</span><span class="shaka-forward-rewind-oncontrolscontainer-icon">fast_forward</span></div></div><div class="shaka-hidden-rewind-container"><div class="shaka-rewind-oncontrolscontainer"><span>0s</span><span class="shaka-forward-rewind-oncontrolscontainer-icon">fast_rewind</span></div></div><div class="shaka-server-side-ad-container"></div><div class="shaka-bottom-controls shaka-no-propagation"><div class="shaka-ad-controls shaka-hidden"><div class="shaka-ad-position shaka-hidden"><span class="shaka-ad-position-span"></span></div><div class="shaka-ad-counter"><span class="shaka-ad-counter-span"></span></div></div><div class="shaka-controls-button-panel shaka-show-controls-on-mouse-over"><button class="shaka-small-play-button material-icons-round shaka-tooltip" aria-label="일시중지">pause</button><button class="shaka-current-time" disabled="">8:15 / 10:38</button><div class="shaka-spacer" aria-hidden="true"></div><button class="shaka-mute-button material-icons-round shaka-tooltip" aria-label="음소거">volume_up</button><div class="shaka-range-container shaka-volume-bar-container" style="background: linear-gradient(to right, rgb(255, 255, 255) 51.9942%, rgba(255, 255, 255, 0.54) 51.9942%, rgba(255, 255, 255, 0.54) 100%);"><input class="shaka-range-element shaka-volume-bar" type="range" step="any" min="0" max="1" aria-label="볼륨"></div><button class="shaka-fullscreen-button material-icons-round shaka-tooltip" aria-label="전체화면">fullscreen</button><button class="shaka-overflow-menu-button shaka-no-propagation material-icons-round shaka-tooltip" aria-label="설정 더보기">more_vert</button></div><div class="shaka-range-container shaka-seek-bar-container" style="background: linear-gradient(to right, rgb(0, 196, 113) 71.7941%, rgb(0, 196, 113) 71.7941%, rgb(0, 196, 113) 77.5947%, rgba(255, 255, 255, 0.4) 77.5947%, rgba(255, 255, 255, 0.4) 80.9214%, rgba(255, 255, 255, 0.2) 80.9214%);"><div class="shaka-ad-markers" style="background: transparent;"></div><input class="shaka-range-element shaka-seek-bar shaka-no-propagation shaka-show-controls-on-mouse-over" type="range" step="any" min="0" max="638.4666410000001" aria-label="찾기"></div></div><div class="shaka-overflow-menu shaka-no-propagation shaka-show-controls-on-mouse-over shaka-hidden"><button class="shaka-overflow-button shaka-resolution-button shaka-tooltip-status" shaka-status="자동" aria-label="해상도"><i class="material-icons-round">settings</i><label class="shaka-overflow-button-label shaka-overflow-menu-only"><span>해상도</span><span class="shaka-current-selection-span">자동</span></label></button><button class="shaka-overflow-button shaka-playbackrate-button shaka-tooltip-status" aria-label="재생 속도" shaka-status="1x"><i class="material-icons-round">slow_motion_video</i><label class="shaka-overflow-button-label shaka-overflow-menu-only"><span>재생 속도</span><span class="shaka-current-selection-span">1x</span></label></button><button class="shaka-pip-button shaka-tooltip" aria-label="PIP 모드 시작"><i class="material-icons-round">picture_in_picture_alt</i><label class="shaka-overflow-button-label shaka-overflow-menu-only"><span>PIP 모드</span><span class="shaka-current-selection-span">사용 안함</span></label></button></div><div class="shaka-no-propagation shaka-show-controls-on-mouse-over shaka-settings-menu shaka-hidden shaka-resolutions"><button class="shaka-back-to-overflow-button" aria-label="해상도"><i class="material-icons-round">arrow_back</i><span>해상도</span></button><button class="explicit-resolution"><span>1080p</span></button><button class="explicit-resolution"><span>720p</span></button><button class="explicit-resolution"><span>540p</span></button><button class="shaka-enable-abr-button" aria-selected="true"><span class="shaka-auto-span shaka-chosen-item">자동</span><i class="material-icons-round shaka-chosen-item" aria-hidden="true">done</i></button></div><div class="shaka-no-propagation shaka-show-controls-on-mouse-over shaka-settings-menu shaka-playback-rates shaka-hidden"><button class="shaka-back-to-overflow-button" aria-label="뒤로"><i class="material-icons-round">arrow_back</i><span>재생 속도</span></button><button><span>0.5x</span></button><button><span>0.75x</span></button><button aria-selected="true"><span class="shaka-chosen-item">1x</span><i class="material-icons-round shaka-chosen-item" aria-hidden="true">done</i></button><button><span>1.25x</span></button><button><span class="">1.5x</span></button><button><span>1.75x</span></button><button><span>2x</span></button></div></div><div class="shaka-client-side-ad-container shaka-hidden"></div><div class="shaka-spinner-container shaka-hidden"><div class="shaka-spinner"><svg class="shaka-spinner-svg" viewBox="0 0 30 30"><circle class="shaka-spinner-path" cx="15" cy="15" r="14.5" fill="none" stroke-width="1" stroke-miterlimit="10"></circle></svg></div></div><div class="shaka-text-container" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;"></div></div></div><div class="css-182odza"><button type="button" class="css-1xq1rmk"><p class="css-1vtpfoe">DateTime 상태관리!</p><span><svg width="12" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><title>AngleDownIcon</title><path fill="#212529" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path></svg></span></button><div data-testid="mobileDashboardMyVoucher" class="css-15wdu8x"><div class="css-1066lcq"><div><p class="css-1pqj6dl"><span>강의명 : </span>[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출!</p><p class="css-1r740cn">수강 기한 : 무제한</p><p class="css-1ld38rh">진도율 : 40강/178강 (22.47%) | 시간: 409분/1968분</p></div></div><progress value="22.47" max="100" class="css-19a1o8j"></progress></div><ul class="css-bpwffa"><li><a href="https://inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/dashboard" class="css-0"><span class="css-1rfckb6"><span><svg width="18" aria-hidden="true" focusable="false" data-prefix="far" data-icon="external-link" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>LinkFarIcon</title><path fill="#212529" d="M497.6,0,334.4.17A14.4,14.4,0,0,0,320,14.57V47.88a14.4,14.4,0,0,0,14.69,14.4l73.63-2.72,2.06,2.06L131.52,340.49a12,12,0,0,0,0,17l23,23a12,12,0,0,0,17,0L450.38,101.62l2.06,2.06-2.72,73.63A14.4,14.4,0,0,0,464.12,192h33.31a14.4,14.4,0,0,0,14.4-14.4L512,14.4A14.4,14.4,0,0,0,497.6,0ZM432,288H416a16,16,0,0,0-16,16V458a6,6,0,0,1-6,6H54a6,6,0,0,1-6-6V118a6,6,0,0,1,6-6H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V304A16,16,0,0,0,432,288Z"></path></svg></span><span>나가기</span></span></a></li><li><span class="css-1rfckb6"><span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell-slash" class="svg-inline--fa fa-bell-slash " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="font-size: 16px; color: inherit;"><path fill="currentColor" d="M186 120.5C209 85.38 245.4 59.84 288 51.2V32C288 14.33 302.3 .0003 320 .0003C337.7 .0003 352 14.33 352 32V51.2C425 66.03 480 130.6 480 208V226.8C480 273.9 497.3 319.2 528.5 354.4L535.9 362.7C544.3 372.2 546.4 385.6 541.2 397.1C540.1 397.5 540.8 397.1 540.6 398.4L630.8 469.1C641.2 477.3 643.1 492.4 634.9 502.8C626.7 513.2 611.6 515.1 601.2 506.9L9.196 42.89C-1.236 34.71-3.065 19.63 5.112 9.196C13.29-1.236 28.37-3.065 38.81 5.112L186 120.5zM160 226.8V222.1L406.2 416H128C115.4 416 103.1 408.6 98.81 397.1C93.65 385.6 95.71 372.2 104.1 362.7L111.5 354.4C142.7 319.2 160 273.9 160 226.8V226.8zM320 512C303 512 286.7 505.3 274.7 493.3C262.7 481.3 256 464.1 256 448H384C384 464.1 377.3 481.3 365.3 493.3C353.3 505.3 336.1 512 320 512z"></path></svg></span><span>학습 알림</span></span></li><li><span class="css-17gsa7r"><span><svg width="18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><title>StarIcon</title><path data-testid="review-star" fill="#212529" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></span><span>수강평</span></span></li><li><span class="css-1rfckb6"><span><svg width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 14"><title>CheckFarIcon</title><path fill="#212529" fill-rule="evenodd" d="M16.08.14L5.725 10.599 1.92 6.756c-.185-.187-.484-.187-.668 0L.138 7.88c-.184.187-.184.489 0 .675l5.253 5.305c.184.187.483.187.668 0L17.862 1.94c.184-.187.184-.49 0-.676L16.748.14c-.184-.187-.483-.187-.668 0z"></path></svg></span><span>봤어요</span></span></li><li><span class="css-1rfckb6"><span><svg width="18" aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>ArrowLeftIcon</title><path fill="#212529" d="M229.9 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L94.569 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H94.569l155.13-155.13c4.686-4.686 4.686-12.284 0-16.971L229.9 38.101c-4.686-4.686-12.284-4.686-16.971 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971L212.929 473.9c4.686 4.686 12.284 4.686 16.971-.001z"></path></svg></span><span>이전 수업</span></span></li><li><span class="css-1rfckb6"><span><svg width="18" aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>ArrowRightIcon</title><path fill="#212529" d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></span><span>다음 수업</span></span></li><li class="css-1gpet93"><span class="css-1rfckb6"><span><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="keyboard" class="svg-inline--fa fa-keyboard " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="font-size: 16px; color: inherit;"><path fill="currentColor" d="M512 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V128C576 92.65 547.3 64 512 64zM528 384c0 8.822-7.178 16-16 16H64c-8.822 0-16-7.178-16-16V128c0-8.822 7.178-16 16-16h448c8.822 0 16 7.178 16 16V384zM140 152h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C152 157.3 146.7 152 140 152zM196 200h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C184 194.7 189.3 200 196 200zM276 200h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C264 194.7 269.3 200 276 200zM356 200h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C344 194.7 349.3 200 356 200zM460 152h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C472 157.3 466.7 152 460 152zM140 232h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C152 237.3 146.7 232 140 232zM196 280h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C184 274.7 189.3 280 196 280zM276 280h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C264 274.7 269.3 280 276 280zM356 280h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C344 274.7 349.3 280 356 280zM460 232h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C472 237.3 466.7 232 460 232zM400 320h-224C167.1 320 160 327.1 160 336V352c0 8.875 7.125 16 16 16h224c8.875 0 16-7.125 16-16v-16C416 327.1 408.9 320 400 320z"></path></svg></span><span>단축키</span></span></li></ul></div><div data-testid="unit-note" class="css-1tk8uvj"><div class="markdown-body css-nr61ir"><p><a href="https://github.com/codefactory-co/flutter-lv1-project-u-and-i">프로젝트 GitHub 바로가기 👈👈👈</a></p></div></div></div><footer data-testid="unit-footer" class="css-uti4hk"><div><span class="css-1iqyy5y"><button type="button" class="css-u3b0qh"><span class="css-g194hl"><svg width="7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 12"><title>AngleLeftIcon</title><path fill="#fff" fill-rule="evenodd" d="M.166 5.602L5.702.165c.22-.22.578-.22.799 0l.333.333c.221.22.221.576 0 .797L2.027 6l4.803 4.705c.22.22.22.577 0 .797l-.334.333c-.22.22-.578.22-.799 0L.162 6.398c-.217-.22-.217-.576.004-.796z"></path></svg></span>이전 수업</button></span><span class="css-1u4rtln"><span class="css-1iqyy5y"><button type="button" class="css-u3b0qh">봤어요</button></span></span><span class="css-1iqyy5y"><button type="button" class="css-u3b0qh">다음 수업<span class="css-g194hl"><svg width="7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 12"><path fill="#fff" fill-rule="evenodd" d="M6.834 5.602L1.298.165c-.22-.22-.578-.22-.799 0L.166.498c-.221.22-.221.576 0 .797L4.973 6 .17 10.705c-.22.22-.22.577 0 .797l.334.333c.22.22.578.22.799 0l5.535-5.437c.217-.22.217-.576-.004-.796z"></path></svg></span></button></span></div></footer></div></main><div class="css-bb867w" style=""><ul data-testid="sidebar" class="css-13ku56z"><li aria-current="false"><button type="button" title="목차" aria-label="curriculum-tab-toggle-button" class="css-orgeeu"><svg width="24" height="19" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19"><title>ListIcon</title><path fill="#212529" fill-rule="evenodd" d="M3.75 14.615h-3c-.414 0-.75.328-.75.731v2.923c0 .404.336.731.75.731h3c.414 0 .75-.327.75-.73v-2.924c0-.403-.336-.73-.75-.73zM3.75 0h-3C.336 0 0 .327 0 .73v2.924c0 .403.336.73.75.73h3c.414 0 .75-.327.75-.73V.73C4.5.327 4.164 0 3.75 0zm0 7.308h-3c-.414 0-.75.327-.75.73v2.924c0 .403.336.73.75.73h3c.414 0 .75-.327.75-.73V8.038c0-.403-.336-.73-.75-.73zm19.5 8.038h-15c-.414 0-.75.327-.75.73v1.462c0 .404.336.731.75.731h15c.414 0 .75-.327.75-.73v-1.462c0-.404-.336-.73-.75-.73zm0-14.615h-15c-.414 0-.75.327-.75.73v1.462c0 .404.336.73.75.73h15c.414 0 .75-.326.75-.73V1.462c0-.404-.336-.731-.75-.731zm0 7.307h-15c-.414 0-.75.328-.75.731v1.462c0 .403.336.73.75.73h15c.414 0 .75-.327.75-.73V8.769c0-.403-.336-.73-.75-.73z"></path></svg></button></li><li aria-current="false"><button type="button" title="커뮤니티" aria-label="community-tab-toggle-button" class="css-orgeeu"><svg width="24" height="24" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comment-alt-dots" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>CommentIcon</title><path fill="#212529" d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zM128 240c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg></button></li><li aria-current="false"><button type="button" title="노트" aria-label="note-tab-toggle-button" class="css-orgeeu"><svg width="24" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title>NoteIcon</title><path fill="#212529" fill-rule="evenodd" d="M4.816 6.2c0-.177.07-.346.196-.471.125-.125.294-.196.471-.196h9.967c.177 0 .347.07.472.196.125.125.195.294.195.471s-.07.346-.195.471-.295.196-.472.196H5.483c-.177 0-.346-.07-.471-.196-.125-.125-.196-.294-.196-.471v0zm.667 5.2h9.967c.177 0 .347-.07.472-.195s.195-.295.195-.472c0-.176-.07-.346-.195-.471s-.295-.195-.472-.195H5.483c-.177 0-.346.07-.471.195s-.196.295-.196.471c0 .177.07.347.196.472.125.125.294.195.471.195v0zm10.186 3.237c-.07-.024-.144-.037-.218-.037H5.483c-.177 0-.347.07-.472.195s-.195.295-.195.472.07.346.195.471.295.195.472.195h9.44l.746-1.296zM5.011 19.328c-.093.094-.157.212-.182.342-.026.129-.013.263.038.385.05.122.136.226.245.3.11.072.239.112.37.112h8.16v-1.334h-8.16c-.176 0-.346.07-.471.195v0zM2.717 25h15.5c.454 0 .89-.182 1.213-.504.322-.322.503-.758.503-1.213v-3.464l-.536.928c-.193.336-.467.62-.797.824v1.712c0 .101-.041.199-.113.27-.072.073-.17.113-.27.114h-15.5c-.101 0-.199-.041-.27-.113-.073-.072-.113-.17-.114-.271V2.717c0-.101.041-.199.113-.27.072-.073.17-.113.271-.114h15.5c.1 0 .198.041.27.113.072.072.113.17.113.271v6.848l1.333-2.309V2.717c0-.455-.181-.891-.503-1.213C19.108 1.182 18.67 1 18.216 1H2.717c-.455 0-.891.182-1.213.504C1.182 1.826 1 2.262 1 2.717v20.566c0 .455.182.891.504 1.213.322.322.758.504 1.213.504v0zm12.972-3.595l2.045-1.18c.115-.067.21-.162.277-.277l6.916-11.979c.072-.125.092-.275.054-.415-.037-.14-.129-.26-.255-.333l-1.72-.992c-.062-.036-.13-.06-.202-.07-.071-.008-.143-.004-.213.015-.07.018-.135.05-.192.094-.057.044-.105.099-.14.161l-6.916 11.978c-.067.115-.101.246-.101.378v2.362c0 .052.014.103.04.149.026.045.064.082.11.109.044.026.096.04.148.04.052 0 .104-.014.149-.04v0z" clip-rule="evenodd"></path></svg></button></li><li class="css-1gfm3uk"><button class="mantine-UnstyledButton-root mantine-ActionIcon-root  css-1fgb05w mantine-89fym0" type="button" title="플레이어 단축키" aria-label="플레이어 단축키 보기"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="keyboard" class="svg-inline--fa fa-keyboard " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="font-size: 20px; color: inherit;"><path fill="currentColor" d="M512 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V128C576 92.65 547.3 64 512 64zM528 384c0 8.822-7.178 16-16 16H64c-8.822 0-16-7.178-16-16V128c0-8.822 7.178-16 16-16h448c8.822 0 16 7.178 16 16V384zM140 152h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C152 157.3 146.7 152 140 152zM196 200h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C184 194.7 189.3 200 196 200zM276 200h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C264 194.7 269.3 200 276 200zM356 200h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C344 194.7 349.3 200 356 200zM460 152h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C472 157.3 466.7 152 460 152zM140 232h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C152 237.3 146.7 232 140 232zM196 280h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C184 274.7 189.3 280 196 280zM276 280h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C264 274.7 269.3 280 276 280zM356 280h24c6.656 0 12-5.344 12-12v-24c0-6.656-5.344-12-12-12h-24c-6.656 0-12 5.344-12 12v24C344 274.7 349.3 280 356 280zM460 232h-24c-6.656 0-12 5.344-12 12v24c0 6.656 5.344 12 12 12h24c6.656 0 12-5.344 12-12v-24C472 237.3 466.7 232 460 232zM400 320h-224C167.1 320 160 327.1 160 336V352c0 8.875 7.125 16 16 16h224c8.875 0 16-7.125 16-16v-16C416 327.1 408.9 320 400 320z"></path></svg></button></li></ul></div><div class="css-m8edzb" style=""><ul class="css-15currb"><li aria-current="false" class="css-qvrrxd"><button type="button" aria-label="curriculum-tab-toggle-button" class="css-1vt6fuy"><span><svg width="24" height="19" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19"><title>ListIcon</title><path fill="#212529" fill-rule="evenodd" d="M3.75 14.615h-3c-.414 0-.75.328-.75.731v2.923c0 .404.336.731.75.731h3c.414 0 .75-.327.75-.73v-2.924c0-.403-.336-.73-.75-.73zM3.75 0h-3C.336 0 0 .327 0 .73v2.924c0 .403.336.73.75.73h3c.414 0 .75-.327.75-.73V.73C4.5.327 4.164 0 3.75 0zm0 7.308h-3c-.414 0-.75.327-.75.73v2.924c0 .403.336.73.75.73h3c.414 0 .75-.327.75-.73V8.038c0-.403-.336-.73-.75-.73zm19.5 8.038h-15c-.414 0-.75.327-.75.73v1.462c0 .404.336.731.75.731h15c.414 0 .75-.327.75-.73v-1.462c0-.404-.336-.73-.75-.73zm0-14.615h-15c-.414 0-.75.327-.75.73v1.462c0 .404.336.73.75.73h15c.414 0 .75-.326.75-.73V1.462c0-.404-.336-.731-.75-.731zm0 7.307h-15c-.414 0-.75.328-.75.731v1.462c0 .403.336.73.75.73h15c.414 0 .75-.327.75-.73V8.769c0-.403-.336-.73-.75-.73z"></path></svg></span><span>목차</span></button></li><li aria-current="false" class="css-qvrrxd"><button type="button" aria-label="community-tab-toggle-button" class="css-1vt6fuy"><span><svg width="24" height="24" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comment-alt-dots" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>CommentIcon</title><path fill="#212529" d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zM128 240c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg></span><span>커뮤니티</span></button></li><li aria-current="false" class="css-qvrrxd"><button type="button" aria-label="note-tab-toggle-button" class="css-1vt6fuy"><span><svg width="24" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><title>NoteIcon</title><path fill="#212529" fill-rule="evenodd" d="M4.816 6.2c0-.177.07-.346.196-.471.125-.125.294-.196.471-.196h9.967c.177 0 .347.07.472.196.125.125.195.294.195.471s-.07.346-.195.471-.295.196-.472.196H5.483c-.177 0-.346-.07-.471-.196-.125-.125-.196-.294-.196-.471v0zm.667 5.2h9.967c.177 0 .347-.07.472-.195s.195-.295.195-.472c0-.176-.07-.346-.195-.471s-.295-.195-.472-.195H5.483c-.177 0-.346.07-.471.195s-.196.295-.196.471c0 .177.07.347.196.472.125.125.294.195.471.195v0zm10.186 3.237c-.07-.024-.144-.037-.218-.037H5.483c-.177 0-.347.07-.472.195s-.195.295-.195.472.07.346.195.471.295.195.472.195h9.44l.746-1.296zM5.011 19.328c-.093.094-.157.212-.182.342-.026.129-.013.263.038.385.05.122.136.226.245.3.11.072.239.112.37.112h8.16v-1.334h-8.16c-.176 0-.346.07-.471.195v0zM2.717 25h15.5c.454 0 .89-.182 1.213-.504.322-.322.503-.758.503-1.213v-3.464l-.536.928c-.193.336-.467.62-.797.824v1.712c0 .101-.041.199-.113.27-.072.073-.17.113-.27.114h-15.5c-.101 0-.199-.041-.27-.113-.073-.072-.113-.17-.114-.271V2.717c0-.101.041-.199.113-.27.072-.073.17-.113.271-.114h15.5c.1 0 .198.041.27.113.072.072.113.17.113.271v6.848l1.333-2.309V2.717c0-.455-.181-.891-.503-1.213C19.108 1.182 18.67 1 18.216 1H2.717c-.455 0-.891.182-1.213.504C1.182 1.826 1 2.262 1 2.717v20.566c0 .455.182.891.504 1.213.322.322.758.504 1.213.504v0zm12.972-3.595l2.045-1.18c.115-.067.21-.162.277-.277l6.916-11.979c.072-.125.092-.275.054-.415-.037-.14-.129-.26-.255-.333l-1.72-.992c-.062-.036-.13-.06-.202-.07-.071-.008-.143-.004-.213.015-.07.018-.135.05-.192.094-.057.044-.105.099-.14.161l-6.916 11.978c-.067.115-.101.246-.101.378v2.362c0 .052.014.103.04.149.026.045.064.082.11.109.044.026.096.04.148.04.052 0 .104-.014.149-.04v0z" clip-rule="evenodd"></path></svg></span><span>노트</span></button></li></ul></div><aside class="react-draggable css-1d73h0e" style="transform: translate(480px, 0px);"></aside><aside class="react-draggable css-1d73h0e" style="transform: translate(480px, 0px);"></aside><aside class="react-draggable css-1gytd0p" style="transform: translate(480px, 0px);"></aside><aside class="react-draggable css-1d73h0e" style="transform: translate(480px, 0px);"></aside></div>
+  
+
+
+<div><div dir="ltr"></div></div><div><div dir="ltr"><div class="mantine-lwafmq" style="bottom: 0px;"><div></div></div></div></div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","441896424280799");fbq("track","PageView");</script>
+<noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=441896424280799&amp;ev=PageView&amp;noscript=1">
+</noscript>
+<script type="text/javascript" id="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/wcslog.js"></script><script type="text/javascript" id="">(function(b,e,c,f,a,d){b[c]=b[c]||function(){(b[c].q=b[c].q||[]).push(arguments)};a=e.createElement(f);a.async=1;a.charset="utf-8";a.src="//static.dable.io/dist/plugin.min.js";d=e.getElementsByTagName(f)[0];d.parentNode.insertBefore(a,d)})(window,document,"dable","script");dable("setService","inflearn.com");dable("sendLog","visit");</script>
+<script type="text/javascript" id="">!function(d,e,f,a,b,c){d.twq||(a=d.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],b=e.createElement(f),b.async=!0,b.src="//static.ads-twitter.com/uwt.js",c=e.getElementsByTagName(f)[0],c.parentNode.insertBefore(b,c))}(window,document,"script");twq("init","o5gow");twq("track","PageView");</script>
+
+
+<script type="text/javascript" id="">var _AceGID=function(){var a="gtp9.acecounter.com 8080 AH4A45343888168 AW 0 NaPm,Ncisy ALL 0".split(" "),b=_AceGID?_AceGID.val:[],c=0,d=new Image(0,0);0>b.join(".").indexOf(a[3])&&(d.src="https://"+a[0]+"/?cookie",b.push(a),c=b.length);return{o:c,val:b}}(),_AceCounter=function(){var a=_AceGID,b=document.createElement("script"),c=document.getElementsByTagName("script")[0];if(0!=a.o){a=a.val[a.o-1];var d=a[0].substr(0,a[0].indexOf(".")),e="0"!=a[7]?a[2]:a[3],f=a[5].replace(/,/g,"_");b.src="https://cr.acecounter.com/Web/AceCounter_"+
+e+".js?gc\x3d"+a[2]+"\x26py\x3d"+a[4]+"\x26gd\x3d"+d+"\x26gp\x3d"+a[1]+"\x26up\x3d"+f+"\x26rd\x3d"+(new Date).getTime();c.parentNode.insertBefore(b,c);return b.src}}();</script>
+
+<script type="text/javascript" id="">window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};var userId=google_tag_manager["GTM-MVM7ZHX"].macro(2)||null;window.hj("identify",userId);</script><script type="text/javascript" id="">var parseQueryString=function(){var b=window.location.search,a={};b.replace(RegExp("([^?\x3d\x26]+)(\x3d([^\x26]*))?","g"),function(f,c,g,d){a[c]=d});return a},dr_event_type,dr_value,dr_items=[],item,url=window.location.href,pathname=window.location.pathname,param=window.location.search,businessType="education",isItem=/^\/course\//.test(pathname)&&!/\/course.*\/lecture/.test(pathname)&&!/\/course.*\/manage/.test(pathname)&&!/\/course.*\/dashboard/.test(pathname),isItemList=/^\/courses/.test(pathname)&&
+!parseQueryString().s,isSearch=/^\/courses/.test(pathname)&&!!parseQueryString().s,isBeforeCV=/carts/.test(pathname),isCV=/payments/.test(pathname),shouldSendDynxData=isItem||isItemList||isSearch||isBeforeCV||isCV;
+if(shouldSendDynxData){if(isSearch){dr_event_type="view_search_results";item=[];for(var e=document.querySelectorAll(".card.course.course_card_item"),i=0;i<e.length;i++)dr_items.push({id:JSON.parse(e[i].getAttribute("fxd-data")).course_id,google_business_vertical:businessType})}else if(isItem){var targetId=document.querySelector('meta[property\x3d"dable:item_id"]');dr_event_type="view_item";targetId&&(dr_items=[{id:targetId.content,google_business_vertical:businessType}]);dr_value=0}else if(isItemList)for(dr_event_type=
+"view_item_list",e=document.querySelectorAll(".card.course.course_card_item"),i=0;i<e.length;i++)dr_items.push({id:JSON.parse(e[i].getAttribute("fxd-data")).course_id,google_business_vertical:businessType});else if(isBeforeCV)for(dr_event_type="add_to_cart",item=[],e=document.querySelectorAll(".button.is-small.move_to_wish"),i=0;i<e.length;i++)dr_items.push({id:JSON.parse(e[i].getAttribute("fxd-data")).course_id,google_business_vertical:businessType}),dr_value=1;else if(isCV)for(dr_event_type="purchase",
+item=[],e=document.querySelectorAll(".product_item"),i=0;i<e.length;i++)dr_items.push({id:JSON.parse(e[i].getAttribute("fxd-data")).course_id,google_business_vertical:businessType});dataLayer.push({dr_event_type:dr_event_type,dr_value:dr_value,dr_items:dr_items,event:"dynamic_remarketing"})}else dataLayer.push({event:"remarketing"});</script><script type="text/javascript" id="">if(!wcs_add)var wcs_add={};wcs_add.wa="s_5a2ed88c30a8";if(!_nasa)var _nasa={};window.wcs&&(wcs.inflow("www.inflearn.com"),wcs_do(_nasa));</script><img src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/adsct" height="1" width="1" style="display: none;"><img src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/adsct(1)" height="1" width="1" style="display: none;"><iframe id="_hjSafeContext_80822915" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" tabindex="-1" aria-hidden="true" id="_hjRemoteVarsFrame" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/box-ff00c703c3bbdf54ae44ee858d64f69e.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><img alt="" src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/match" width="1" height="1" style="position: absolute; top: -9999px; left: -9999px;"><iframe src="./[코드팩토리] [초급] Flutter 3.0 앱 개발 - 10개의 프로젝트로 오늘 초보 탈출! _ 학습 페이지_files/Beq5YUTp.html" width="0" height="0" style="display: none;"></iframe></body></html>
